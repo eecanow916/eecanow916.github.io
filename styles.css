@@ -107,3 +107,22 @@ footer a {
     color: #0056b3;
 }
 
+
+.navigation a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background-color: #f2f2f2; /* Add background color */
+    padding: 8px 12px; /* Add padding for spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: background-color 0.3s, color 0.3s; /* Transition both background and color */
+}
+
+.navigation a:hover {
+    color: #0056b3;
+    background-color: #e0e0e0; /* Darken the background color on hover */
+}
+
+
+
