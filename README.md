@@ -1,6 +1,6 @@
 # Privet Website
 
-Welcome to Privet! This is a simple webpage created using Markdown and hosted on GitHub.
+Welcome to Privet!
 
 ## About Privet
 
