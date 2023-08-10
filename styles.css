@@ -78,3 +78,32 @@ footer a {
         padding: 20px;
     }
 }
+
+/* ... (existing styles) */
+
+.navigation {
+    margin-top: 20px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0 15px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navigation a:hover {
+    color: #0056b3;
+}
+
