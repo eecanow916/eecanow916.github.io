@@ -3,6 +3,8 @@
 <head>
     <!-- meta and link tags -->
     
+    <link rel="stylesheet" href="create-profile-styles.css">
+    
     <script src="profile.js" defer></script> <!-- Load your profile JavaScript file -->
 </head>
 <body>
@@ -11,33 +13,29 @@
     <main>
         <section id="create-profile" class="about">
             <h2>Create Your Profile</h2>
-            <button id="connect-linkedin">Connect with LinkedIn</button>
+            
+            <div id="linkedin-profile">
+                <button id="connect-linkedin">Connect with LinkedIn</button>
+            </div>
+            
+            <div id="manual-profile" style="display: none;">
+                <h3>Create a Manual Profile</h3>
+                <form id="manual-profile-form">
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+                    
+                    <label for="field">Field:</label>
+                    <input type="text" id="field" name="field" required><br>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br>
+                    
+              <button type="submit">Create Profile</button>
+                </form>
+            </div>
         </section>
-    
-    <section id="create-profile" class="about">
-        <h2>Create Your Profile</h2>
-        
-        <div id="linkedin-profile">
-            <button id="connect-linkedin">Connect with LinkedIn</button>
-        </div>
-        
-        <div id="manual-profile" style="display: none;">
-            <h3>Create a Manual Profile</h3>
-            <form id="manual-profile-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required><br>
-                
-                <label for="field">Field:</label>
-                <input type="text" id="field" name="field" required><br>
-                
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required><br>
-                
-                <button type="submit">Create Profile</button>
-            </form>
-        </div>
-    </section>
-</main>
+    </main>
     
     <footer>
         <!-- Footer content -->
