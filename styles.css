@@ -12,8 +12,8 @@ body {
 
 header {
     text-align: center;
-    padding-left: 12%;
-    padding-top: 0.5%;    
+    padding-left: 25%;
+    padding-top: 10%;
     background-color: #007bff;
     color: #fff;
 }
@@ -80,19 +80,20 @@ footer a {
     }
 }
 
-/* ... (existing styles) */
-
+/* Navigation Styles */
 .navigation {
     margin-top: 20px;
+    text-align: center;
 }
 
 .navigation ul {
     list-style-type: none;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    padding: 0;
 }
 
 .navigation li {
+    display: inline;
     margin: 0 15px;
 }
 
@@ -108,22 +109,8 @@ footer a {
     color: #0056b3;
 }
 
-
-.navigation a {
-    text-decoration: none;
-    color: #808080;
-    font-weight: bold;
-    font-size: 1.1rem;
-    background-color: #f2f2f2; /* Add background color */
-    padding: 8px 12px; /* Add padding for spacing */
-    border-radius: 5px; /* Add border radius for rounded corners */
-    transition: background-color 0.3s, color 0.3s; /* Transition both background and color */
-}
-
+/* Styling for navigation links on hover */
 .navigation a:hover {
     color: #0056b3;
-    background-color: #e0e0e0; /* Darken the background color on hover */
+    background-color: #e0e0e0;
 }
-
-
-
