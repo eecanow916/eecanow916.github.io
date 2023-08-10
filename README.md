@@ -8,7 +8,7 @@ Privet serves as a platform facilitating connections with individuals employed a
 
 - **Name:** Privet
 - **Location:** Los Angeles, CA
-- **Interests:** Recruiting, Modetize Expertise
+- **Interests:** Recruiting, Monetize Experience
 
 ## Contact
 
